@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Programmers Hub" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Company M" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/assets.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Sprivaten</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <h1 class="header__logo">Sprivaten</h1>
+        <div class="header__bar">
+          <nav class="header__nav">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header__icon">
+            <img src="./images/icons/search.svg" alt="Search" />
+            <img src="./images/icons/shopping-cart.svg" alt="Shopping cart" />
+            <img
+              src="./images/icons/Vector.svg"
+              alt="burger-menu"
+              class="burger-menu"
+            />
+          </div>
+        </div>
+      </div>
+      <nav class="mobile-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__hero-content">
+        <div class="hero__text">
+          <h2>Drive More<br>Customers<br>Through Digital</h2>
+          <p>We know how large objects will act, but things on a small scale.</p>          
+          <div class="hero__buttons">
+            <button class="btn btn--dark">Learn More</button>
+            <button class="btn btn--light">Get Started</button>
+          </div>
+        </div>
+        <div class="hero__form">
+            <h3>Book Appointment</h3>
+          <form>
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" placeholder="Full Name"/>
+  
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com"  />
+  
+            <label for="department">Department *</label>
+            <select id="department" name="department">
+              <option value="">Please Select</option>
+              <option value="sales">Sales</option>
+              <option value="marketing">Marketing</option>
+              <option value="support">Support</option>
+            </select>
+            <label for="time">Preferred Contact Time *</label>
+            <select id="time" name="time">
+              <option value="morning">4:00 Available</option>
+              <option value="afternoon">Afternoon</option>
+              <option value="evening">Evening</option>
+            </select>
+            <button class="btn btn--primary">Book Appointment</button>
+          </form>
+        </div>
+    </header>
+    <main>
+      <section class="container">
+        <div class="container__fluid">
+          <div class="container__text">
+            <h2>WHY CHOOSE US</h2>
+            <p>Problems trying to resolve the conflict between 
+            <span class="text--split">the two major realms of Classical physics: Newtonian mechanics </span></p>
+          </div>
+          <div class="container__cards">
+            <div class="container__cards--card">
+              <div class="container__cards--header card--items">
+                <div class="cards--image"><img src="./images/icons/group.svg" alt="group image"></div>
+                <h5>Web Development</h5>
+              </div>
+              <div class="container__cards--content card--items">
+                <ul>
+                  <li>-  The best products start 
+                  with Figma</li>
+                  <li>- Design with real data</li>
+                  <li>- Lightning fast prototyping</li>
+                  <li>- Fastest way to organize</li>
+                  <li>- Work at the speed of thought.</li>
+                  <li>Learn More</li>
+              </ul>
+              </div>
+            </div>
+            <div class="container__cards--card">
+              <div class="container__cards--header card--items">
+                <div class="cards--image badge"><img src="./images/icons/badge.svg" alt="group image"></div>
+                <h5>National top 50 firms</h5>
+              </div>
+              <div class="container__cards--content card--items">
+                <ul>
+                  <li>-  The best products start 
+                  with Figma</li>
+                  <li>- Design with real data</li>
+                  <li>- Lightning fast prototyping</li>
+                  <li>- Fastest way to organize</li>
+                  <li>- Work at the speed of thought.</li>
+                  <li>Learn More</li>
+              </ul>
+              </div>
+            </div>
+            <div class="container__cards--card">
+              <div class="container__cards--header card--items">
+                <div class="cards--image"><img src="./images/icons/journal.svg" alt="group image"></div>
+                <h5>Digital Marketing</h5>
+              </div>
+              <div class="container__cards--content card--items">
+                <ul>
+                  <li>-  The best products start 
+                  with Figma</li>
+                  <li>- Design with real data</li>
+                  <li>- Lightning fast prototyping</li>
+                  <li>- Fastest way to organize</li>
+                  <li>- Work at the speed of thought.</li>
+                  <li>Learn More</li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container service">
+        <div class="container__fluid service__content">
+          <div class="container__text">
+            <h2>We are providing best 
+              <span class="text--split">business service.</span></h2>
+            <p>Problems trying to resolve the conflict between 
+            <span class="text--split">the two major realms of Classical physics: Newtonian mechanics </span></p>
+          </div>
+            <div class="container__content">
+              <img src="./images/background-images/meeting-room.png" alt="meeting-room">
+              <div class="container__content--btn btn--click">
+                <img src="./images/icons/click-btn.svg" alt="click-btn" class="click-btn">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container feedback">
+        <div class="container__fluid">
+          <div class="container__text">
+            <h2>What Clients Say</h2>
+            <p>Problems trying to resolve the conflict between 
+            <span class="text--split">the two major realms of Classical physics: Newtonian mechanics </span></p>
+          </div>
+          <div class="container__cards">
+            <div class="container__card card">
+              <div class="container__stars">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star.svg" alt="star-icon">
+              </div>
+              <p>Slate helps you see how many 
+                more days you need to work to 
+                reach your financial goal.</p>
+                <div class="author__details">
+                  <img src="./images/background-images/author.png" alt="author--image">
+                  <p class="author--name">Regina Miles <span class="text--split">Designer</span></p>
+                </div>
+            </div>
+            <div class="container__card card">
+              <div class="container__stars">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star.svg" alt="star-icon">
+              </div>
+              <p>Slate helps you see how many 
+                more days you need to work to 
+                reach your financial goal.</p>
+                <div class="author__details">
+                  <img src="./images/background-images/author.png" alt="author--image">
+                  <p class="author--name">Regina Miles <span class="text--split">Designer</span></p>
+                </div>
+            </div>
+            <div class="container__card card">
+              <div class="container__stars">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star-filled.svg" alt="star-icon">
+                <img src="./images/icons/star.svg" alt="star-icon">
+              </div>
+              <p>Slate helps you see how many 
+                more days you need to work to 
+                reach your financial goal.</p>
+                <div class="author__details">
+                  <img src="./images/background-images/author.png" alt="author--image">
+                  <p class="author--name">Regina Miles <span class="text--split">Designer</span></p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container team">
+        <div class="container__fluid">
+          <div class="container__text">
+            <h2>Meet Our Team</h2>
+            <p>Problems trying to resolve the conflict between 
+            <span class="text--split">the two major realms of Classical physics: Newtonian mechanics </span></p>
+          </div>
+          <div class="container__cards">
+            <div class="container__card card card--item">
+              <div class="author--image__card">
+                <img src="./images/background-images/author-1.png" alt="author-image">
+              </div>
+                <div class="author__details--info">
+                  <p class="author--name">Avie Beaton</p>
+                  <p class="author--profession">CO Founder</p>
+                  <div class="author__profiles">
+                    <a href="https://www.facebook.com/">
+                      <img src="./images/icons/facebook.svg" alt="facebook-logo">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                      <img src="./images/icons/instagram.svg" alt="instagram-logo">
+                    </a>
+                    <a href="https://www.twitter.com/">
+                      <img src="./images/icons/twitter.svg" alt="twitter-logo">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="container__card card card--item">
+              <div class="author--image__card">
+                <img src="./images/background-images/author-2.png" alt="author-image">
+              </div>
+                <div class="author__details--info">
+                  <p class="author--name">Ben Jonson</p>
+                  <p class="author--profession">Consultant</p>
+                  <div class="author__profiles">
+                    <a href="https://www.facebook.com/">
+                      <img src="./images/icons/facebook.svg" alt="facebook-logo">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                      <img src="./images/icons/instagram.svg" alt="instagram-logo">
+                    </a>
+                    <a href="https://www.twitter.com/">
+                      <img src="./images/icons/twitter.svg" alt="twitter-logo">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="container__card card card--item">
+              <div class="author--image__card">
+                <img src="./images/background-images/author-3.png" alt="author-image">
+              </div>
+                <div class="author__details--info">
+                  <p class="author--name">Ashley Fletcher</p>
+                  <p class="author--profession">CEO</p>
+                  <div class="author__profiles">
+                    <a href="https://www.facebook.com/">
+                      <img src="./images/icons/facebook.svg" alt="facebook-logo">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                      <img src="./images/icons/instagram.svg" alt="instagram-logo">
+                    </a>
+                    <a href="https://www.twitter.com/">
+                      <img src="./images/icons/twitter.svg" alt="twitter-logo">
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container register__form">
+        <div class="container__fluid register__content">
+          <div class="register__text">
+            <h5>Contact us</h5>
+            <h2>Make an appointment</h2>
+          </div>
+          <form>
+            <input type="text" id="name" name="name" placeholder="Full Name"/>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com"  />
+            <select id="department" name="department">
+              <option value="" class="option">Please Select</option>
+              <option value="sales">Sales</option>
+              <option value="marketing">Marketing</option>
+              <option value="support">Support</option>
+            </select>
+            <select id="time" name="time">
+              <option value="morning" class="option">4:00 Available</option>
+              <option value="afternoon">Afternoon</option>
+              <option value="evening">Evening</option>
+            </select>
+            <textarea name="message" id="message" placeholder="message"></textarea>
+            <button class="btn btn--primary">Book Appointment</button>
+          </form>
+          </div>
+          <div class="consulting__agency">
+            <div class="consulting__agency--text">
+              <h3>Consulting Agency For Your Business</h3>
+              <p>the quick fox jumps over the lazy dog</p>
+            </div>
+            <button class="btn btn--primary" type="button">Contact Us</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container footer">
+      <div class="container__fluid">
+        <div class="footer__company--info">
+          <h3 class="header__logo">Sprivaten</h3>
+          <div class="company__platforms">
+            <a href="https://www.facebook.com/">
+              <img src="./images/icons/facebook.svg" alt="facebook-logo" class="company__platforms--facebook">
+            </a>
+            <a href="https://www.instagram.com/" class="parent">
+              <img src="./images/icons/instagram.svg" alt="instagram-logo" class="company__platforms--instagram">
+            </a>
+            <a href="https://www.twitter.com/">
+              <img src="./images/icons/twitter.svg" alt="twitter-logo" class="company__platforms--twitter">
+            </a>
+            <a href="https://www.youtube.com/">
+              <img src="./images/icons/youtube.svg" alt="youtube-logo">
+            </a>
+          </div>
+        </div>
+        <div class="company__services">
+            <div class="navigation--list">
+              <h4>Company Info</h4>
+              <nav>
+                <ul class="navigation--list__items">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">We are hiring</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="navigation--list">
+              <h4>Company Info</h4>
+              <nav>
+                <ul class="navigation--list__items">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">We are hiring</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="navigation--list">
+              <h4>Legal</h4>
+              <nav>
+                <ul class="navigation--list__items">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">We are hiring</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="navigation--list">
+              <h4>Features</h4>
+              <nav>
+                <ul class="navigation--list__items">
+                  <li><a href="#">Business Marketing</a></li>
+                  <li><a href="#">User Analytic</a></li>
+                  <li><a href="#">Live Chat</a></li>
+                  <li><a href="#">Unlimited Support</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="navigation--list">
+              <h4>Resources</h4>
+              <nav>
+                <ul class="navigation--list__items">
+                  <li><a href="#">IOS & Android</a></li>
+                  <li><a href="#">Watch a Demo</a></li>
+                  <li><a href="#">Customers</a></li>
+                  <li><a href="#">API</a></li>
+                </ul>
+              </nav>
+            </div>
+            
+          <div class="company__contact">
+            <h5>Get In Touch</h5>
+            <form>
+              <input type="email" name="email" id="email" placeholder="Your Email">
+              <button type="submit" id='subscribe' class="btn btn--primary">Subscribe</button>
+            </form>
+            <span class="text--split">Lorem impsum dolor amit</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="container__fluid">
+        <p>Made With Love By Figmaland All Right Reserved </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Burger menu toggle script
+   
+    </script>
+  </body>
+</html>
