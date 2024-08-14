@@ -482,6 +482,19 @@ body {
   letter-spacing: 0.2px;
 }
 
+.btn--primary:hover {
+  background-color: #f7ba63;
+}
+
+.btn--light:hover {
+  background-color: var(--secondary-color-1);
+  color: var(--background-color-primary);
+}
+
+.btn:hover {
+  transition: all 0.4s ease-in-out;
+}
+
 .hero__form h3 {
   font-size: 24px;
   font-weight: 700;
@@ -962,6 +975,14 @@ textarea {
 
   .footer__copyright p {
     text-align: center;
+  }
+
+  .btn--disable {
+    pointer-events: none;
+  }
+
+  .btn--light:hover {
+    color: var(--secondary-color-1);
   }
 }
 
