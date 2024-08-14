@@ -481,6 +481,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.2px;
 }
+
 .hero__form h3 {
   font-size: 24px;
   font-weight: 700;
@@ -777,6 +778,15 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+  .active {
+    display: block;
+  }
+
+  .burger-menu {
+    display: block;
+    cursor: pointer;
+  }
+
   .container__card {
     flex-wrap: wrap;
     flex-direction: column;
@@ -813,10 +823,6 @@ textarea {
     gap: 20px;
   }
 
-  .mobile-nav {
-    display: block;
-  }
-
   .header__content {
     padding: 10px;
   }
@@ -849,11 +855,6 @@ textarea {
 
   .header__icon {
     gap: 10px;
-  }
-
-  .burger-menu {
-    display: block;
-    cursor: pointer;
   }
 
   .header__bar {
