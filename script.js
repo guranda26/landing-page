@@ -4,7 +4,6 @@ function toggleBar() {
   if (burgerMenu) {
     burgerMenu.addEventListener("click", () => {
       mobileNav.classList.toggle("active");
-      console.log("hello");
     });
   }
 }
